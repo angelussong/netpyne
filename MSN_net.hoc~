@@ -1,0 +1,19 @@
+/*****
+load_file("d1msn.tem")
+nd1 = 1
+objectvar d1msns[nd1]
+for i=0,nd1-1 {
+	d1msns[i] = new d1msn()
+}
+forall v_init=-80
+*****/
+
+load_file("d2msn.tem")
+nd2 = 1
+objectvar d2msns[nd2]
+for i=0,nd2-1 {
+        d2msns[i] = new d2msn()
+}
+
+load_file("iclamp.ses")
+forall v_init=-80
